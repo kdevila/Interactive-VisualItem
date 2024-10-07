@@ -14,7 +14,7 @@ function draw() {
   //start text//
   fill("black");
   textSize(15);
-  text("Use your mouse to trigger the bottom switches and find the right sequence to win!", 100,370)
+  text("Use your mouse to trigger the bottom switches and find the right sequence to win!", 100,370);
   
   //light switches (bottom row)//
   fill("pink");
