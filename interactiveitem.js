@@ -45,11 +45,6 @@ function draw() {
 
 function mousePressed() {
   // User interaction
-  if (dist(mouseX, mouseY, 50, 300) < 50/2) {
-    // switch 1
-    light2 = '#afdc93';
-    light5 = 'white'
-  }
   if (dist(mouseX, mouseY, 150, 300) < 50/2) {
     // switch 1
     light1 = '#afdc93';
@@ -78,5 +73,4 @@ function mousePressed() {
     light5 = 'white';
   }
 }
-//ANSWER: Press switch 3, then switch 2, then switch 4, then switch 1.//
 
